@@ -4,3 +4,8 @@ export async function getAllStarships() {
   const res = await fetch(`${baseUrl}/starships`)
   return res.json()
 }
+
+export async function getStarshipDetails() {
+  const res = await fetch(`${baseUrl}/starships/:id`)
+  return res.json()
+}
