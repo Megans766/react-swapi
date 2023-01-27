@@ -15,7 +15,11 @@ const StarshipDetails = () => {
   }, [location.state.starship.url])
 
   return (
-    
+    <>
+      <h3>Starship Details</h3>
+      <h4>{starshipDetails.name}</h4>
+      <p>{starshipDetails.model}</p>
+    </>
   )
 }
 

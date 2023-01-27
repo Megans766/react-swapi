@@ -7,8 +7,8 @@ function App() {
   return (
     <>
       <Routes>
-        <Route path='/starships' element={<StarshipList />} />
-        <Route path='/starships/:id' element={<StarshipDetails />} />
+        <Route path='/' element={<StarshipList />} />
+        <Route path='/starships' element={<StarshipDetails />} />
       </Routes>
     </>
   )
